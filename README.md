@@ -1,6 +1,6 @@
 # Trivia Quest Starter
 
-Welcome to your React development journey! You'll be building an interactive trivia game using modern web development tools and techniques.
+Welcome to your React development journey! You'll be building an interactive trivia game using modern web development tools and AI.
 
 ## 🎯 For Students
 
