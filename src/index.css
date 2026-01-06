@@ -1,0 +1,17 @@
+/**
+ * MAIN STYLESHEET - Trivia Quest
+ * 
+ * This file imports all stylesheets in the correct order:
+ * 1. reset.css - Browser normalization
+ * 2. fonts.css - Google Fonts
+ * 3. components.css - Reusable UI components
+ * 4. game.css - Game-specific styles
+ * 
+ * This structure follows professional CSS architecture patterns
+ * and prepares students for frameworks like Tailwind CSS.
+ */
+
+@import './styles/reset.css';
+@import './styles/fonts.css';
+@import './styles/components.css';
+@import './styles/game.css';
