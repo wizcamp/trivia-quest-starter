@@ -22,5 +22,6 @@
     "opacity": 50,
     "iconColour": "#FFD700"
   },
-  "todo-tree.general.statusBar": "total"
+  "todo-tree.general.statusBar": "total",
+  "todo-tree.tree.groupedByTag": true
 }
