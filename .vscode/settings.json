@@ -13,7 +13,7 @@
     "SESSION-11",
     "SESSION-12"
   ],
-  "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)\\s*:?)",
+  "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|\\*)\\s*($TAGS)\\s*:?)",
   "todo-tree.highlights.defaultHighlight": {
     "icon": "check",
     "type": "text",
