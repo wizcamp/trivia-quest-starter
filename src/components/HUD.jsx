@@ -3,8 +3,8 @@ import { useGame } from "../hooks/useGame";
 /**
  * HUD - Heads Up Display
  *
- * TODO: Session 8 - Add Scoreboard component
- * TODO: Session 9 - Add MusicToggle component
+ * SESSION-08: Students add Scoreboard component
+ * SESSION-09: Students add MusicToggle component
  */
 
 // Current Zone Display - Shows active zone information

@@ -5,7 +5,7 @@ import { getAssetPath } from "../utils/assets";
 /**
  * GAME MAP - Interactive Zone Selection
  *
- * TODO: Session 7 - Show quiz modal
+ * SESSION-07: Students show quiz modal by calling setIsQuizVisible(true)
  */
 
 export default function GameMap() {
@@ -29,7 +29,7 @@ export default function GameMap() {
     // Load questions first, then show modal
     await loadQuestionsForZone(zoneId);
 
-    // TODO: Session 7 - Show quiz modal
+    // SESSION-07: Students show quiz modal by calling setIsQuizVisible(true)
   };
 
   const getCharacterPosition = () => {

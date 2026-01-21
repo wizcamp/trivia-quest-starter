@@ -5,7 +5,7 @@ import { useGame } from "../hooks/useGame";
 /**
  * QUIZ MODAL - Interactive Trivia Questions
  *
- * TODO: Session 7 - Create AnswerChoices component and add custom feedback messages
+ * SESSION-07: Students create AnswerChoices component and add custom feedback messages
  */
 
 // Shows current question progress and zone subtitle

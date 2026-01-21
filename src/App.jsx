@@ -1,10 +1,10 @@
 /**
  * APP COMPONENT - The Main Screen Controller
  *
- * TODO: Session 1 - Replace <StartHere /> with <SplashScreen />
- * TODO: Session 3 - Add screen navigation
- * TODO: Session 7 - Add QuizModal conditional rendering
- * TODO: Session 8 - Add GameOver screen navigation
+ * SESSION-01: Students replace StartHere with SplashScreen component
+ * SESSION-03: Students add screen navigation with conditional rendering
+ * SESSION-07: Students add QuizModal conditional rendering
+ * SESSION-08: Students add GameOver screen navigation
  */
 
 import StartHere from "./components/StartHere";

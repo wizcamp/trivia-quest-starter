@@ -3,9 +3,9 @@ import { getZoneById } from "../data/zones";
 /**
  * TRIVIA API SERVICE - Connect to OpenTrivia Database
  *
- * TODO: Session 5 - Implement fetchQuestions and transformQuestion
- * TODO: Session 6 - Add caching with localStorage
- * TODO: Session 8 - Add cache management functions
+ * SESSION-05: Students implement fetchQuestions and transformQuestion
+ * SESSION-06: Students add caching with localStorage
+ * SESSION-08: Students add cache management functions
  */
 
 // Build API URL with zone parameters
