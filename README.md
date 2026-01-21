@@ -1,231 +1,91 @@
-# Trivia Quest Starter
+# Trivia Quest
 
-Welcome to your React development journey! You'll be building an interactive trivia game using modern web development tools and AI.
+Build an interactive trivia game using React, APIs, and modern web development tools!
 
-## 🎯 For Students
+## 🚀 Quick Start
 
-### 🚀 Quick Start - Launch Your Game!
+1. Click **Use this template** → **Open in a codespace**
+2. Wait for the environment to load (1-2 minutes)
+3. Run `npm run dev` in the terminal
+4. Open the app in your browser
 
-**After your Codespace loads, run this command in the terminal:**
+## 📚 What You'll Build
+
+Create a complete trivia game with React fundamentals:
+
+- **Session 1:** Set up dev environment and swap components
+- **Session 2:** Build reusable GameButton component
+- **Session 3:** Manage game flow with Context API
+- **Session 4:** Configure game zones with data structures
+- **Session 5:** Fetch questions from Open Trivia Database
+- **Session 6:** Add localStorage caching for performance
+- **Session 7:** Build interactive QuizModal component
+- **Session 8:** Implement scoring and victory screen
+- **Session 9:** Add theme music with custom hooks
+- **Session 10:** Deploy to GitHub Pages
+- **Session 11:** Extend with custom features
+- **Session 12:** Showcase your game
+
+## 🛠️ Tech Stack
+
+- **React** - UI framework with hooks and context
+- **Vite** - Dev server with hot reload
+- **Open Trivia Database** - Free trivia API
+- **GitHub Pages** - Free hosting
+
+## 📦 Commands
 
 ```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run format   # Format code with Prettier
+```
+
+## 📁 Project Structure
+
+```
+trivia-quest-starter/
+├── src/
+│   ├── components/        # React components
+│   ├── context/           # GameContext for state
+│   ├── data/              # zones.js configuration
+│   ├── hooks/             # useGame, useAudio
+│   ├── services/          # API integration
+│   └── App.jsx            # Main app component
+├── public/                # Images, audio files
+└── index.html             # Entry point
+```
+
+## 🆘 Troubleshooting
+
+**Port already in use:**
+```bash
+npx kill-port 5173
 npm run dev
 ```
 
-**Then click "Open in Browser" when the port notification appears!**
+**Server won't stop:**
+- Press <kbd>Ctrl</kbd>+<kbd>C</kbd> (PC) or <kbd>Cmd</kbd>+<kbd>C</kbd> (Mac) in terminal
 
----
-
-### Essential Commands
-
+**Build errors:**
 ```bash
-npm run dev          # Start development server (use this most!)
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run format       # Clean up code formatting and import order
-npm run format:check # Check code formatting
+rm -rf node_modules package-lock.json
+npm install
 ```
 
-## 🏗️ Project Structure
+## 📖 Resources
 
-```
-├── src/
-│   ├── components/     # React components (GameLogo, SplashScreen, etc.)
-│   ├── constants/      # Game constants (screens)
-│   ├── context/        # Game state management (GameContext)
-│   ├── data/          # Game configuration (zones.js)
-│   ├── hooks/         # Custom React hooks (useGame, useAudio)
-│   ├── services/      # API integration (trivia.js)
-│   ├── styles/        # CSS stylesheets
-│   └── utils/         # Utility functions (assets.js)
-├── public/           # Static assets (images, audio)
-├── .devcontainer/    # Codespaces configuration
-└── .github/workflows/ # GitHub Actions deployment
-```
-
-## 📚 Learning Journey
-
-### Session 1: Welcome to React Development
-
-**Setting Up Your Trivia Game**
-
-- **Goal**: Experience React's component composition and hot module reloading
-- **Key Concepts**: Components, JSX, development environment
-- **Tasks**:
-  - Follow on-screen instructions to swap `<StartHere />` for `<SplashScreen />`
-  - Understand React entry point flow: index.html → main.jsx → App.jsx
-  - Experience hot module reloading magic
-
-### Session 2: Creating Reusable Components
-
-**Building Game Components**
-
-- **Goal**: Build reusable GameButton component
-- **Key Concepts**: Props, component reusability, React DevTools
-- **Tasks**:
-  - Create GameButton.jsx with text, onClick, and variant props
-  - Replace SplashScreen buttons with GameButton components
-  - Install and use React DevTools for component inspection
-
-### Session 3: Shared State with Context
-
-**Managing Game Flow**
-
-- **Goal**: Implement screen navigation using shared state
-- **Key Concepts**: State vs props, Context API, constants
-- **Tasks**:
-  - Use GameContext to manage screen state
-  - Navigate between SPLASH and PLAYING screens
-  - Understand how shared state controls entire app
-
-### Session 4: Data-Driven Design
-
-**Configuring Game Zones**
-
-- **Goal**: Design zone themes and configure game metadata
-- **Key Concepts**: Data-driven architecture, API integration planning
-- **Tasks**:
-  - Create cohesive zone themes (forest, desert, ice castle)
-  - Configure zones.js with categoryId, difficulty, questionCount
-  - Use React DevTools to test different zone data
-
-### Session 5: Connecting to External APIs
-
-**Generating Dynamic Questions**
-
-- **Goal**: Fetch trivia questions from Open Trivia Database
-- **Key Concepts**: Async JavaScript, fetch(), API documentation
-- **Tasks**:
-  - Complete fetchQuestions function in api.js
-  - Handle URL encoding and data transformation
-  - Implement error handling for network requests
-
-### Session 6: Browser Storage & Caching
-
-**Adding Question Caching**
-
-- **Goal**: Implement localStorage caching for better performance
-- **Key Concepts**: Browser storage, caching strategies, performance
-- **Tasks**:
-  - Add caching to fetchQuestions function
-  - Integrate cache management with GameContext
-  - Test complete game flow with caching
-
-### Session 7: Building Complex Interactive Components
-
-**Creating the Quiz Experience**
-
-- **Goal**: Build QuizModal with scaffolded components
-- **Key Concepts**: Component composition, user interaction patterns
-- **Tasks**:
-  - Create custom feedback constants
-  - Complete AnswerFeedback component with randomized messages
-  - Connect modal visibility to zone clicks
-
-### Session 8: Application State Management
-
-**Implementing Scoring & Victory**
-
-- **Goal**: Build scoring system and GameOver screen
-- **Key Concepts**: Complex state management, game completion logic
-- **Tasks**:
-  - Add scoring functions to GameContext
-  - Create GameOver component with final score display
-  - Integrate scoring with quiz interactions
-
-### Session 9: Custom Hooks & Browser APIs
-
-**Adding Theme Music**
-
-- **Goal**: Build reusable audio functionality with custom hooks
-- **Key Concepts**: Custom hooks, useRef, HTML5 Audio API
-- **Tasks**:
-  - Complete useAudio hook for music control
-  - Build MusicToggle component
-  - Integrate audio system with GameContext
-
-### Session 10: Version Control & Deployment
-
-**Publishing Your Game**
-
-- **Goal**: Deploy game to GitHub Pages
-- **Key Concepts**: Git workflow, CI/CD, automated deployment
-- **Tasks**:
-  - Commit progress with meaningful messages
-  - Configure GitHub Pages deployment
-  - Test deployed game functionality
-
-### Session 11: Choose Your Adventure
-
-**Extending Your Game**
-
-- **Goal**: Add personal features with AI assistance
-- **Key Concepts**: Self-directed learning, AI collaboration
-- **Extension Options**:
-  - **Starter Mods**: Custom fonts, character swap, instructions modal
-  - **Power Mods**: Progress dots, CSS variables, sound effects
-  - **Beast Mods**: Player selection, character movement, theme toggle
-
-### Session 12: Project Showcase & Next Steps
-
-**Celebrating Your Achievement**
-
-- **Goal**: Present your game and plan future learning
-- **Key Concepts**: Technical presentation, continued learning
-- **Activities**:
-  - Individual game demonstrations
-  - Peer feedback and technical discussion
-  - Course reflection and next steps planning
-
-## 💡 Development Tips
-
-### Codespaces Tips
-
-- **Everything Configured**: Formatting and essential settings are pre-configured
-- **Choose Your Theme**: VS Code starts with the default theme - customize it in Settings > Themes > Color Theme
-- **Terminal Keybindings**: Enable "Send Keybindings to Shell" for smoother terminal experience
-- **Port Forwarding**: Development server runs on port 5173 (not 3000)
-
-### React DevTools
-
-1. Install React DevTools browser extension
-2. Use Components tab to inspect state and props
-3. Great for debugging Context and component hierarchy
-
-### Getting Help
-
-- Read TODO comments in each file for guidance
-- Use console.log() for debugging
-- Experiment and break things (that's how you learn!)
-- Ask your instructor questions
-
-## 🎯 Success Metrics
-
-By the end of this course, you'll have:
-
-- ✅ A fully functional, deployed trivia game
-- ✅ Understanding of React fundamentals (components, state, hooks)
-- ✅ Experience with external APIs and async JavaScript
-- ✅ Knowledge of modern development tools and workflow
-- ✅ A portfolio project you can share with others
-- ✅ Confidence to continue learning React and web development
-
-## 🚨 Important Notes
-
-- **Follow the Sessions**: Each builds on the previous one
-- **Don't Skip TODOs**: They guide your learning progression
-- **Commit Often**: Save progress with meaningful messages
-- **Ask Questions**: No question is too small
-- **Have Fun**: You're building something awesome!
+- Session guides provided by your instructor
+- Browser console (F12) for debugging
+- React DevTools browser extension
+- GitHub Copilot / Amazon Q for AI assistance
 
 ## 🚀 Deployment
 
 Your game automatically deploys to GitHub Pages at:
-`https://USERNAME.github.io/trivia-quest/`
+`https://YOUR-USERNAME.github.io/trivia-quest/`
 
 ---
 
-**Trivia Quest Starter Template**  
-Version 1.0.0 | 2025
-
-Ready to start your React journey? Let's build something amazing! 🚀
+Built with ❤️ at Wizcamp
