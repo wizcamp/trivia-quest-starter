@@ -8,10 +8,11 @@ This project uses **locked dependency versions** to ensure a consistent learning
 
 - **React**: 19.1.1 (Latest stable)
 - **Vite**: 7.1.7 (Latest stable build tool)
-- **Node.js**: 20.x LTS (via .devcontainer)
+- **Node.js**: 22 (via .devcontainer)
 - **Prettier**: 3.0.3 (Code formatting)
-- **ESLint**: 8.57.0 (Import ordering)
-- **eslint-plugin-simple-import-sort**: 12.0.0 (Import sorting plugin)
+- **ESLint**: 8.57.0 (Linting)
+- **eslint-plugin-simple-import-sort**: 12.0.0 (Import sorting)
+- **baseline-browser-mapping**: 2.9.17 (Browser compatibility data)
 
 ### Why Lock Versions?
 
@@ -23,8 +24,8 @@ This project uses **locked dependency versions** to ensure a consistent learning
 ### Support Timeline
 
 - **Current Version**: 1.0.0
-- **Support Until**: August 2027
-- **Next Review**: August 2026
+- **Support Until**: January 2027
+- **Next Review**: January 2026
 
 ### Maintenance Policy
 
@@ -48,5 +49,5 @@ Version locking prioritizes **learning fundamentals** over chasing the latest fe
 ---
 
 **Template Version**: 1.0.0  
-**Last Updated**: August 2025  
-**Next Review**: August 2026
+**Last Updated**: January 2025  
+**Next Review**: January 2026
