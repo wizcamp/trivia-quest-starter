@@ -211,5 +211,5 @@ export function GameProvider({ children }) {
 }
 
 // ============================================================================
-// DEBUGGING TIP: console.log('Game State:', useGame());
+// DEBUGGING TIP: console.log("Game State:", useGame());
 // ============================================================================
