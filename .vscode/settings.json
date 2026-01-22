@@ -23,6 +23,5 @@
     "iconColour": "#FFD700"
   },
   "todo-tree.general.statusBar": "total",
-  "todo-tree.tree.groupedByTag": true,
   "todo-tree.tree.tagsOnly": true
 }
