@@ -261,33 +261,28 @@ export default function StartHere() {
               <span className="dot green"></span>
             </div>
             <div className="terminal-body">
-              <h3>👉 Start Here</h3>
-              <p>This screen is powered by a React component...</p>
+              <h3>👉 Your First Task</h3>
+              <p>Replace this placeholder with your game's splash screen:</p>
               <ol>
                 <li>
                   Open <code>src/App.jsx</code>
                 </li>
                 <li>
-                  Add the import:{" "}
-                  <code>
-                    import SplashScreen from './components/SplashScreen';
-                  </code>
+                  Import: <code>import SplashScreen from "./components/SplashScreen";</code>
                 </li>
                 <li>
-                  Replace <code>&lt;StartHere /&gt;</code> with{" "}
-                  <code>&lt;SplashScreen /&gt;</code>
+                  Replace <code>&lt;StartHere /&gt;</code> with <code>&lt;SplashScreen /&gt;</code>
                 </li>
               </ol>
               <p>
-                ✨ Watch the screen update instantly — no save needed! This is
-                called <strong>Hot Module Replacement (HMR)</strong>!
+                ✨ The screen updates instantly — that's <strong>Hot Module Replacement</strong>!
               </p>
             </div>
           </div>
         </div>
 
         <footer className="start-here-footer">
-          <p>© 2025 Wizcamp. All rights reserved.</p>
+          <p>© 2026 Wizcamp. All rights reserved.</p>
         </footer>
       </div>
     </>
